@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'Apache 2.0', :file => 'LICENSE' }
   spec.author = { 'Ryo Fukuda' => 'yuzushioh' }
 
-  spec.source = { git: 'https://github.com/OnerootProject/EthereumKit.git', tag: "v#{spec.version}" }
+  spec.source = { git: 'https://github.com/pedromcunha/EthereumKit', tag: "v#{spec.version}" }
   spec.source_files = 'EthereumKit/**/*.{h,m,swift}'
   spec.module_map = 'EthereumKit/EthereumKit.modulemap'
   spec.ios.deployment_target = '9.0'
