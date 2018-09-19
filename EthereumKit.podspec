@@ -12,7 +12,6 @@ Pod::Spec.new do |spec|
 
   spec.source = { git: 'https://github.com/pedromcunha/EthereumKit', tag: "v#{spec.version}" }
   spec.source_files = 'EthereumKit/**/*.{h,m,swift}'
-  spec.module_map = 'EthereumKit/EthereumKit.modulemap'
   spec.ios.deployment_target = '9.0'
   spec.swift_version = '4.0'
 end
